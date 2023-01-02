@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Current Time</title>
+        
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js" type="module" async></script>
+
+        <meta name="viewport" content="width=screen-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Questrial&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <section id="timeSection">
+                <h1 id="time">--:--:--</h1>
+            </section>
+            <section id="toolsSection">
+                <div id="toolsContainer">
+                    <div>
+                        <h2 id="title1">Time Format</h2>
+                        <div>
+                            <button class="active" id="format1">5:23:44</button>
+                            <button id="format2">5:23</button>
+                            <button id="format3">5h 23m 44s</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 id="title2">Time Font</h2>
+                        <div>
+                            <button class="active" id="fontQuestrial">Questrial</button>
+                            <button id="fontMontserrat">Montserrat</button>
+                            <button id="fontSystemUI" id="title7">System UI</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 id="title3">Time Size</h2>
+                        <div>
+                            <button id="size1">70%</button>
+                            <button class="active" id="size2">100%</button>
+                            <button id="size3">150%</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 id="title4">Dark Mode</h2>
+                        <div>
+                            <button id="darkOn">On</button>
+                            <button class="active" id="darkOff">Off</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 id="title5">Language</h2>
+                        <div>
+                            <button class="active" id="langEn">English</button>
+                            <button id="langIt">Italiano</button>
+                        </div>
+                    </div>
+                    <div class="reducedopacity">
+                        <p id="title6">
+                            Made with ❤️ by Alessandro Sherhey
+                        </p>
+                    </div>
+                </div>
+                <div id="toolsButtonContainer">
+                    <button id="toolsButton">Show Tools</button>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
