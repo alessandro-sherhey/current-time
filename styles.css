@@ -1,11 +1,11 @@
 body {
     background-color: white;
-    font-family: Montserrat;
+    font-family: system-ui;
     margin: 0;
 }
 
 h1 {
-    font-family: Questrial;
+    font-family: system-ui;
     font-size: 10rem;
     font-weight: bold;
 }
@@ -45,6 +45,7 @@ button {
     border-radius: 15px;
     transition: 0.05s linear;
     opacity: 0.3;
+    color: black;
 }
 
 button.active {
